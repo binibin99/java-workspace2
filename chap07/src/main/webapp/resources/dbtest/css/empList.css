@@ -1,0 +1,20 @@
+
+.emp-list {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	column-gap: 10px;
+	row-gap: 3px;
+	box-sizing: border-box;
+}
+
+.emp-list > div {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.emp-list > .title {
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
